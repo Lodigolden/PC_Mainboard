@@ -612,6 +612,18 @@
     [
       "490fb0fc-05a6-45cb-af79-455c87e6b9a2",
       "peripherals"
+    ],
+    [
+      "01dad65e-16f9-4460-a8fe-f2bb5f9096e6",
+      "rtc"
+    ],
+    [
+      "977b4f9e-3c82-4114-8a79-574bf38f2b4c",
+      "watchdog"
+    ],
+    [
+      "370cf3cd-f652-4cb5-a2e0-db1b03f43015",
+      "sd_card_interface"
     ]
   ],
   "text_variables": {}
