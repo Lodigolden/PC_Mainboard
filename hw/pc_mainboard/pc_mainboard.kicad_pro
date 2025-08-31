@@ -595,19 +595,19 @@
     ],
     [
       "36ea05e7-a91a-429d-8bc8-710554747042",
-      "ethernet"
+      "phy"
     ],
     [
       "cd5831af-d12d-4f69-a802-87d46fa3a18e",
       "external"
     ],
     [
-      "33cb16bf-f483-4c1f-99e7-4c1cbd8a9300",
-      "program"
-    ],
-    [
       "466b0041-4207-4eb7-a868-7833c3ef1db5",
       "power"
+    ],
+    [
+      "ca84e111-cd01-464e-9a8f-53a5482dcbab",
+      "serial"
     ],
     [
       "490fb0fc-05a6-45cb-af79-455c87e6b9a2",
