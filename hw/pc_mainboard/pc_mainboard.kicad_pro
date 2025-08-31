@@ -382,6 +382,43 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "69a74940-cd00-4a75-bd5b-2bda9e86219a",
+      "Root"
+    ],
+    [
+      "9f21f0fc-6b25-4b0a-8b3d-43702f406213",
+      "mpu"
+    ],
+    [
+      "5acaef94-cd0b-452b-9621-73208b013ff5",
+      "flash"
+    ],
+    [
+      "f44ff359-0e7d-4df6-a339-7acb5b5c0f1d",
+      "ram"
+    ],
+    [
+      "36ea05e7-a91a-429d-8bc8-710554747042",
+      "ethernet"
+    ],
+    [
+      "cd5831af-d12d-4f69-a802-87d46fa3a18e",
+      "external"
+    ],
+    [
+      "33cb16bf-f483-4c1f-99e7-4c1cbd8a9300",
+      "program"
+    ],
+    [
+      "466b0041-4207-4eb7-a868-7833c3ef1db5",
+      "power"
+    ],
+    [
+      "490fb0fc-05a6-45cb-af79-455c87e6b9a2",
+      "peripherals"
+    ]
+  ],
   "text_variables": {}
 }
