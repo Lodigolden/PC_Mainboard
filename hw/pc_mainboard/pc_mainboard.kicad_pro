@@ -624,6 +624,10 @@
     [
       "370cf3cd-f652-4cb5-a2e0-db1b03f43015",
       "sd_card_interface"
+    ],
+    [
+      "0c2f5e6a-3e36-4818-980c-c86701037833",
+      "eeprom"
     ]
   ],
   "text_variables": {}

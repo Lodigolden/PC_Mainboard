@@ -77,6 +77,44 @@
 		)
 	)
 	(sheet
+		(at 321.31 92.71)
+		(size 22.86 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0c2f5e6a-3e36-4818-980c-c86701037833")
+		(property "Sheetname" "eeprom"
+			(at 321.31 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "eeprom.kicad_sch"
+			(at 321.31 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pc_mainboard"
+				(path "/69a74940-cd00-4a75-bd5b-2bda9e86219a"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 254 187.96)
 		(size 25.4 21.59)
 		(fields_autoplaced yes)
