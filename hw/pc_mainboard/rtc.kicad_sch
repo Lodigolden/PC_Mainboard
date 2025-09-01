@@ -433,7 +433,7 @@
 				)
 			)
 		)
-		(symbol "pc_mainboard:MCP7940MT-I_SN"
+		(symbol "pc_mainboard:rtc_MCP7940MT-I_SN"
 			(pin_names
 				(offset 0.254)
 			)
@@ -511,7 +511,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MCP7940MT-I_SN_0_1"
+			(symbol "rtc_MCP7940MT-I_SN_0_1"
 				(polyline
 					(pts
 						(xy 7.62 -12.7) (xy 48.26 -12.7)
@@ -1777,6 +1777,94 @@
 		)
 	)
 	(symbol
+		(lib_id "pc_mainboard:rtc_MCP7940MT-I_SN")
+		(at 119.38 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "939f9b32-c88b-440a-881d-8109178b7765")
+		(property "Reference" "U5"
+			(at 147.32 78.74 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MCP7940MT-I/SN"
+			(at 147.32 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "SOIC8-N_MC_MCH"
+			(at 119.38 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "MCP7940MT-I/SN"
+			(at 119.38 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d60c869d-1c47-4e30-bb03-870673fb397e")
+		)
+		(pin "7"
+			(uuid "e8d93597-326c-47ee-af3f-0ee27e03763f")
+		)
+		(pin "5"
+			(uuid "0c56b7ee-9054-4bec-93d1-eb5b5ee22e26")
+		)
+		(pin "8"
+			(uuid "372fce7d-06be-41a8-b563-c089d3657b37")
+		)
+		(pin "1"
+			(uuid "2e1be202-32a8-4ba8-a968-979110d0a28f")
+		)
+		(pin "3"
+			(uuid "0ce110bc-6a71-483f-97ec-9303b77be4e9")
+		)
+		(pin "6"
+			(uuid "48b811ca-50a7-4e8c-911c-ed93c8484fd2")
+		)
+		(pin "2"
+			(uuid "468d84ee-630e-477c-840c-c06b34f91b33")
+		)
+		(instances
+			(project ""
+				(path "/69a74940-cd00-4a75-bd5b-2bda9e86219a/01dad65e-16f9-4460-a8fe-f2bb5f9096e6"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 87.63 107.95 0)
 		(unit 1)
@@ -1905,94 +1993,6 @@
 			(project "pc_mainboard"
 				(path "/69a74940-cd00-4a75-bd5b-2bda9e86219a/01dad65e-16f9-4460-a8fe-f2bb5f9096e6"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pc_mainboard:MCP7940MT-I_SN")
-		(at 119.38 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f6bc8021-05e9-4db8-81a1-d7d58fe1ac34")
-		(property "Reference" "U5"
-			(at 147.32 78.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "MCP7940MT-I/SN"
-			(at 147.32 81.28 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "SOIC8-N_MC_MCH"
-			(at 119.38 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "MCP7940MT-I/SN"
-			(at 119.38 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 119.38 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "ee7b9074-0f13-4b5d-8c08-f8c78a37e6ee")
-		)
-		(pin "1"
-			(uuid "3bcdb2ff-21b6-4453-9313-5f24b8f96c5a")
-		)
-		(pin "2"
-			(uuid "582902e0-3e50-4649-93ab-3bed85852a4e")
-		)
-		(pin "7"
-			(uuid "38e01928-071c-4e0f-9cf8-65b72c3a3219")
-		)
-		(pin "6"
-			(uuid "1ea0ba1d-f53c-43c7-8c1d-eaa32379c4b5")
-		)
-		(pin "5"
-			(uuid "92dcdce8-97d8-4c92-82e2-75531dd1ce51")
-		)
-		(pin "4"
-			(uuid "64f0e307-ff70-4c46-b2e8-74ee36a9265e")
-		)
-		(pin "8"
-			(uuid "59dd42d5-2b90-4544-933d-8ae0e8b30dd1")
-		)
-		(instances
-			(project ""
-				(path "/69a74940-cd00-4a75-bd5b-2bda9e86219a/01dad65e-16f9-4460-a8fe-f2bb5f9096e6"
-					(reference "U5")
 					(unit 1)
 				)
 			)
