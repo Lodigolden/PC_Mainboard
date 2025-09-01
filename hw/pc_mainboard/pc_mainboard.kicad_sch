@@ -9,8 +9,8 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 276.86 81.28)
-		(size 30.48 25.4)
+		(at 276.86 92.71)
+		(size 12.7 10.16)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -21,7 +21,7 @@
 		)
 		(uuid "01dad65e-16f9-4460-a8fe-f2bb5f9096e6")
 		(property "Sheetname" "rtc"
-			(at 276.86 80.5684 0)
+			(at 276.86 91.9984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30,13 +30,43 @@
 			)
 		)
 		(property "Sheetfile" "rtc.kicad_sch"
-			(at 276.86 107.2646 0)
+			(at 276.86 103.4546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "RTC_MFP" output
+			(at 276.86 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9c911d77-cc95-434c-9609-d263f16cd358")
+		)
+		(pin "SDA" bidirectional
+			(at 276.86 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a3d6e08a-67ed-4187-ae0f-e15f533e66b1")
+		)
+		(pin "SCL" bidirectional
+			(at 276.86 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "878b98b4-794f-4cc8-b2bf-ebfc6a34369d")
 		)
 		(instances
 			(project "pc_mainboard"
