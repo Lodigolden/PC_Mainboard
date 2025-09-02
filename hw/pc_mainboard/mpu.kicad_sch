@@ -7467,7 +7467,7 @@
 	)
 	(symbol
 		(lib_id "MCU_ST_STM32MP1:STM32MP151AABx")
-		(at 283.21 210.82 0)
+		(at 293.37 198.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7476,7 +7476,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5efd1aa-f862-49c3-a45a-bc2e90815c64")
 		(property "Reference" "U1"
-			(at 293.0241 345.44 0)
+			(at 303.1841 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7485,7 +7485,7 @@
 			)
 		)
 		(property "Value" "STM32MP151AABx"
-			(at 293.0241 347.98 0)
+			(at 303.1841 335.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7494,7 +7494,7 @@
 			)
 		)
 		(property "Footprint" "Package_BGA:ST_LFBGA-354_16x16mm_Layout19x19_P0.8mm"
-			(at 173.99 342.9 0)
+			(at 184.15 330.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7504,7 +7504,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32mp151a.pdf"
-			(at 283.21 210.82 0)
+			(at 293.37 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7513,7 +7513,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-A7 MCU, 0KB flash, 708KB RAM, 98 GPIO, LFBGA354"
-			(at 283.21 210.82 0)
+			(at 293.37 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
