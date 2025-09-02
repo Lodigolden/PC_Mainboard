@@ -3,13 +3,13 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "69a74940-cd00-4a75-bd5b-2bda9e86219a")
-	(paper "B")
+	(paper "A2")
 	(title_block
 		(title "Mainboard")
 	)
 	(lib_symbols)
 	(sheet
-		(at 276.86 92.71)
+		(at 328.93 129.54)
 		(size 12.7 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -21,7 +21,7 @@
 		)
 		(uuid "01dad65e-16f9-4460-a8fe-f2bb5f9096e6")
 		(property "Sheetname" "rtc"
-			(at 276.86 91.9984 0)
+			(at 328.93 128.8284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30,7 +30,7 @@
 			)
 		)
 		(property "Sheetfile" "rtc.kicad_sch"
-			(at 276.86 103.4546 0)
+			(at 328.93 140.2846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39,7 +39,7 @@
 			)
 		)
 		(pin "RTC_MFP" output
-			(at 276.86 100.33 180)
+			(at 328.93 137.16 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49,7 +49,7 @@
 			(uuid "9c911d77-cc95-434c-9609-d263f16cd358")
 		)
 		(pin "SDA" bidirectional
-			(at 276.86 97.79 180)
+			(at 328.93 134.62 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59,7 +59,7 @@
 			(uuid "a3d6e08a-67ed-4187-ae0f-e15f533e66b1")
 		)
 		(pin "SCL" bidirectional
-			(at 276.86 95.25 180)
+			(at 328.93 132.08 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -77,7 +77,7 @@
 		)
 	)
 	(sheet
-		(at 321.31 92.71)
+		(at 373.38 129.54)
 		(size 22.86 24.13)
 		(fields_autoplaced yes)
 		(stroke
@@ -89,7 +89,7 @@
 		)
 		(uuid "0c2f5e6a-3e36-4818-980c-c86701037833")
 		(property "Sheetname" "eeprom"
-			(at 321.31 91.9984 0)
+			(at 373.38 128.8284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -98,7 +98,7 @@
 			)
 		)
 		(property "Sheetfile" "eeprom.kicad_sch"
-			(at 321.31 117.4246 0)
+			(at 373.38 154.2546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,7 +115,7 @@
 		)
 	)
 	(sheet
-		(at 254 187.96)
+		(at 306.07 224.79)
 		(size 25.4 21.59)
 		(fields_autoplaced yes)
 		(stroke
@@ -127,7 +127,7 @@
 		)
 		(uuid "36ea05e7-a91a-429d-8bc8-710554747042")
 		(property "Sheetname" "phy"
-			(at 254 187.2484 0)
+			(at 306.07 224.0784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -136,7 +136,7 @@
 			)
 		)
 		(property "Sheetfile" "phy.kicad_sch"
-			(at 254 210.1346 0)
+			(at 306.07 246.9646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -153,7 +153,7 @@
 		)
 	)
 	(sheet
-		(at 327.66 135.89)
+		(at 379.73 172.72)
 		(size 24.13 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -165,7 +165,7 @@
 		)
 		(uuid "370cf3cd-f652-4cb5-a2e0-db1b03f43015")
 		(property "Sheetname" "sd_card_interface"
-			(at 327.66 135.1784 0)
+			(at 379.73 172.0084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -174,7 +174,7 @@
 			)
 		)
 		(property "Sheetfile" "sd_card_interface.kicad_sch"
-			(at 327.66 161.8746 0)
+			(at 379.73 198.7046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -191,7 +191,7 @@
 		)
 	)
 	(sheet
-		(at 127 86.36)
+		(at 179.07 123.19)
 		(size 31.75 31.75)
 		(fields_autoplaced yes)
 		(stroke
@@ -203,7 +203,7 @@
 		)
 		(uuid "466b0041-4207-4eb7-a868-7833c3ef1db5")
 		(property "Sheetname" "power"
-			(at 127 85.6484 0)
+			(at 179.07 122.4784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -212,7 +212,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 127 118.6946 0)
+			(at 179.07 155.5246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -229,7 +229,7 @@
 		)
 	)
 	(sheet
-		(at 215.9 86.36)
+		(at 267.97 123.19)
 		(size 36.83 31.75)
 		(fields_autoplaced yes)
 		(stroke
@@ -241,7 +241,7 @@
 		)
 		(uuid "490fb0fc-05a6-45cb-af79-455c87e6b9a2")
 		(property "Sheetname" "peripherals"
-			(at 215.9 85.6484 0)
+			(at 267.97 122.4784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -250,7 +250,7 @@
 			)
 		)
 		(property "Sheetfile" "peripherals.kicad_sch"
-			(at 215.9 118.6946 0)
+			(at 267.97 155.5246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -267,7 +267,7 @@
 		)
 	)
 	(sheet
-		(at 254 133.35)
+		(at 306.07 170.18)
 		(size 50.8 40.64)
 		(fields_autoplaced yes)
 		(stroke
@@ -279,7 +279,7 @@
 		)
 		(uuid "5acaef94-cd0b-452b-9621-73208b013ff5")
 		(property "Sheetname" "flash"
-			(at 254 132.6384 0)
+			(at 306.07 169.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -288,7 +288,7 @@
 			)
 		)
 		(property "Sheetfile" "flash.kicad_sch"
-			(at 254 174.5746 0)
+			(at 306.07 211.4046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -305,8 +305,8 @@
 		)
 	)
 	(sheet
-		(at 133.35 186.69)
-		(size 31.75 26.67)
+		(at 204.47 226.06)
+		(size 12.7 7.62)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -317,7 +317,7 @@
 		)
 		(uuid "977b4f9e-3c82-4114-8a79-574bf38f2b4c")
 		(property "Sheetname" "watchdog"
-			(at 133.35 185.9784 0)
+			(at 204.47 225.3484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -326,13 +326,33 @@
 			)
 		)
 		(property "Sheetfile" "watchdog.kicad_sch"
-			(at 133.35 213.9446 0)
+			(at 204.47 234.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "WDI" input
+			(at 217.17 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "aadde868-1e87-4836-afb0-19ca1af0e942")
+		)
+		(pin "~{WDO}" output
+			(at 217.17 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0a215745-d5ac-4368-8fcd-7acb5ff53e88")
 		)
 		(instances
 			(project "pc_mainboard"
@@ -343,7 +363,7 @@
 		)
 	)
 	(sheet
-		(at 193.04 133.35)
+		(at 245.11 170.18)
 		(size 45.72 40.64)
 		(fields_autoplaced yes)
 		(stroke
@@ -355,7 +375,7 @@
 		)
 		(uuid "9f21f0fc-6b25-4b0a-8b3d-43702f406213")
 		(property "Sheetname" "mpu"
-			(at 193.04 132.6384 0)
+			(at 245.11 169.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -364,7 +384,7 @@
 			)
 		)
 		(property "Sheetfile" "mpu.kicad_sch"
-			(at 193.04 174.5746 0)
+			(at 245.11 211.4046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -381,7 +401,7 @@
 		)
 	)
 	(sheet
-		(at 140.97 140.97)
+		(at 193.04 177.8)
 		(size 31.75 29.21)
 		(fields_autoplaced yes)
 		(stroke
@@ -393,7 +413,7 @@
 		)
 		(uuid "ca84e111-cd01-464e-9a8f-53a5482dcbab")
 		(property "Sheetname" "serial"
-			(at 140.97 140.2584 0)
+			(at 193.04 177.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -402,7 +422,7 @@
 			)
 		)
 		(property "Sheetfile" "serial.kicad_sch"
-			(at 140.97 170.7646 0)
+			(at 193.04 207.5946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -419,7 +439,7 @@
 		)
 	)
 	(sheet
-		(at 168.91 86.36)
+		(at 220.98 123.19)
 		(size 38.1 31.75)
 		(fields_autoplaced yes)
 		(stroke
@@ -431,7 +451,7 @@
 		)
 		(uuid "cd5831af-d12d-4f69-a802-87d46fa3a18e")
 		(property "Sheetname" "external"
-			(at 168.91 85.6484 0)
+			(at 220.98 122.4784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -440,7 +460,7 @@
 			)
 		)
 		(property "Sheetfile" "external.kicad_sch"
-			(at 168.91 118.6946 0)
+			(at 220.98 155.5246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -457,7 +477,7 @@
 		)
 	)
 	(sheet
-		(at 196.85 187.96)
+		(at 248.92 224.79)
 		(size 35.56 21.59)
 		(fields_autoplaced yes)
 		(stroke
@@ -469,7 +489,7 @@
 		)
 		(uuid "f44ff359-0e7d-4df6-a339-7acb5b5c0f1d")
 		(property "Sheetname" "ram"
-			(at 196.85 187.2484 0)
+			(at 248.92 224.0784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -478,7 +498,7 @@
 			)
 		)
 		(property "Sheetfile" "ram.kicad_sch"
-			(at 196.85 210.1346 0)
+			(at 248.92 246.9646 0)
 			(effects
 				(font
 					(size 1.27 1.27)

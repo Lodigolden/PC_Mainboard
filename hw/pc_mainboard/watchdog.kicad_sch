@@ -883,7 +883,7 @@
 		)
 		(uuid "fef67f5f-a6de-4819-8fb6-01409b176d39")
 	)
-	(hierarchical_label "WDO"
+	(hierarchical_label "~{WDO}"
 		(shape output)
 		(at 177.8 93.98 0)
 		(effects
