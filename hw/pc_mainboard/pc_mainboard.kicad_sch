@@ -1,16 +1,31 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "69a74940-cd00-4a75-bd5b-2bda9e86219a")
 	(paper "A2")
 	(title_block
 		(title "Mainboard")
 	)
 	(lib_symbols)
+	(hierarchical_label "I2C[0..1]"
+		(shape bidirectional)
+		(at 328.93 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "220dcf88-bb07-4222-a33e-5faacb6335f5")
+	)
 	(sheet
 		(at 328.93 129.54)
 		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -40,33 +55,13 @@
 		)
 		(pin "RTC_MFP" output
 			(at 328.93 137.16 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
 			(uuid "9c911d77-cc95-434c-9609-d263f16cd358")
-		)
-		(pin "SDA" bidirectional
-			(at 328.93 134.62 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a3d6e08a-67ed-4187-ae0f-e15f533e66b1")
-		)
-		(pin "SCL" bidirectional
-			(at 328.93 132.08 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "878b98b4-794f-4cc8-b2bf-ebfc6a34369d")
 		)
 		(instances
 			(project "pc_mainboard"
@@ -79,6 +74,10 @@
 	(sheet
 		(at 373.38 129.54)
 		(size 22.86 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -117,6 +116,10 @@
 	(sheet
 		(at 306.07 224.79)
 		(size 25.4 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -155,6 +158,10 @@
 	(sheet
 		(at 379.73 172.72)
 		(size 24.13 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -193,6 +200,10 @@
 	(sheet
 		(at 179.07 123.19)
 		(size 31.75 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -231,6 +242,10 @@
 	(sheet
 		(at 267.97 123.19)
 		(size 36.83 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -269,6 +284,10 @@
 	(sheet
 		(at 306.07 170.18)
 		(size 50.8 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -307,6 +326,10 @@
 	(sheet
 		(at 204.47 226.06)
 		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -336,23 +359,23 @@
 		)
 		(pin "WDI" input
 			(at 217.17 228.6 0)
+			(uuid "aadde868-1e87-4836-afb0-19ca1af0e942")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "aadde868-1e87-4836-afb0-19ca1af0e942")
 		)
 		(pin "~{WDO}" output
 			(at 217.17 231.14 0)
+			(uuid "0a215745-d5ac-4368-8fcd-7acb5ff53e88")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0a215745-d5ac-4368-8fcd-7acb5ff53e88")
 		)
 		(instances
 			(project "pc_mainboard"
@@ -365,6 +388,10 @@
 	(sheet
 		(at 245.11 170.18)
 		(size 45.72 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -403,6 +430,10 @@
 	(sheet
 		(at 193.04 177.8)
 		(size 31.75 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -441,6 +472,10 @@
 	(sheet
 		(at 220.98 123.19)
 		(size 38.1 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -479,6 +514,10 @@
 	(sheet
 		(at 248.92 224.79)
 		(size 35.56 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -519,4 +558,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
