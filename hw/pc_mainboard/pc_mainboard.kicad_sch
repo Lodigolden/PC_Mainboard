@@ -438,8 +438,8 @@
 		)
 	)
 	(sheet
-		(at 193.04 177.8)
-		(size 31.75 29.21)
+		(at 203.2 187.96)
+		(size 21.59 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -454,7 +454,7 @@
 		)
 		(uuid "ca84e111-cd01-464e-9a8f-53a5482dcbab")
 		(property "Sheetname" "serial"
-			(at 193.04 177.0884 0)
+			(at 203.2 187.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -463,12 +463,22 @@
 			)
 		)
 		(property "Sheetfile" "serial.kicad_sch"
-			(at 193.04 207.5946 0)
+			(at 203.2 196.1646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SERIAL_UART[0..1]" bidirectional
+			(at 224.79 191.77 0)
+			(uuid "1f09c2c0-30d0-46f9-9ec0-eb82f8f914c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
