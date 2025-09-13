@@ -650,7 +650,7 @@
 	)
 	(text "I2C address format for this component kind: 0b1010xxx+RW\nThis component address: 0b1010000"
 		(exclude_from_sim no)
-		(at 115.57 129.032 0)
+		(at 116.332 125.476 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -658,17 +658,6 @@
 			(justify left top)
 		)
 		(uuid "14f8014a-325c-4ac6-aaaf-91978f90fce0")
-	)
-	(text "Reference: shorthand for numerical value types\n0b -- binary (0000, etc)\n0x -- hexidecimal (FF, etc)"
-		(exclude_from_sim no)
-		(at 116.078 137.668 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "dd74a2c0-8e7f-4917-964b-0fd746a23fd6")
 	)
 	(junction
 		(at 120.65 104.14)

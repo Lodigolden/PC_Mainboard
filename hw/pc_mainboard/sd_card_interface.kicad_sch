@@ -5,7 +5,7 @@
 	(uuid "5aa40824-d642-4da9-857e-c7746e08ef19")
 	(paper "A4")
 	(title_block
-		(title "SD Card Interface")
+		(title "HDMI Transmitter")
 	)
 	(lib_symbols
 		(symbol "pc_mainboard:sd_card_MEM2067-02-180-00-A_REVB"
@@ -313,7 +313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24c3473c-fcf9-481b-a2cc-674faf1be35e")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 151.13 89.5349 0)
 			(effects
 				(font
@@ -370,48 +370,40 @@
 			)
 		)
 		(pin "2"
-			(uuid "2d1fe18a-9e92-464e-a5bf-79d85208929c")
+			(uuid "a647f2fc-80d1-4d4f-aa2a-3db01ea5770b")
 		)
 		(pin "3"
-			(uuid "294a5288-df26-46e6-b7b2-72502158fd28")
+			(uuid "988d5c27-c2d7-45bb-a264-ab76970408cd")
 		)
 		(pin "8"
-			(uuid "e09c88a9-0ea6-4f11-b7cc-8038914ecd51")
+			(uuid "2ac731d2-f351-426f-87a5-4fe92f11b5f3")
 		)
 		(pin "7"
-			(uuid "4b0cc9ef-8645-49f9-bb12-155da8e651a4")
+			(uuid "eca90832-0a22-49e3-9400-e95876a142a6")
 		)
 		(pin "5"
-			(uuid "94c78d2e-4a3e-41dd-b124-af66503c1389")
+			(uuid "9b35ff51-8d06-4e9f-8fc0-cf14b4a83d41")
 		)
 		(pin "6"
-			(uuid "7213973f-998f-4461-8611-82f93a090af3")
+			(uuid "fff302fb-e929-4ed7-803b-d8a4ae1cbbb4")
 		)
 		(pin "11"
-			(uuid "a913ac30-c07a-4042-8fc4-27ec09fb57d4")
+			(uuid "74d80b43-e807-4421-a16b-29d749067724")
 		)
 		(pin "9"
-			(uuid "da018255-87c1-4f6f-8334-18eb6fe59ce9")
+			(uuid "f46e61ae-643c-4fb6-9434-15dbc3f676d4")
 		)
 		(pin "12"
-			(uuid "d845f4dd-6897-4476-87af-956ef990a62a")
+			(uuid "a2247967-dad8-4565-88cb-621e61d0ba34")
 		)
 		(pin "4"
-			(uuid "20c9d28a-de3e-45e0-bcaf-ba71f1503834")
+			(uuid "26ffd88e-d338-42b6-a344-2443b856e0fb")
 		)
 		(pin "1"
-			(uuid "51fff130-ec61-485a-ac40-8d881f366a77")
+			(uuid "d7acf815-3508-4647-b2dd-34859377fbaf")
 		)
 		(pin "10"
-			(uuid "373fab49-b1e1-470c-9b90-6a50595267c8")
-		)
-		(instances
-			(project ""
-				(path "/69a74940-cd00-4a75-bd5b-2bda9e86219a/370cf3cd-f652-4cb5-a2e0-db1b03f43015"
-					(reference "J2")
-					(unit 1)
-				)
-			)
+			(uuid "82f5042f-a4c1-470d-8aa7-872cec7c15a1")
 		)
 	)
 )

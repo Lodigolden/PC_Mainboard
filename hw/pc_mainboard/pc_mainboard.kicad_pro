@@ -591,7 +591,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "hdmi_transmitter",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -655,6 +655,10 @@
     [
       "0c2f5e6a-3e36-4818-980c-c86701037833",
       "eeprom"
+    ],
+    [
+      "37ed9096-31d7-4b5d-89e0-6ac7c6e9126b",
+      "HDMI Transmitter"
     ]
   ],
   "text_variables": {}

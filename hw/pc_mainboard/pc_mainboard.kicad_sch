@@ -208,6 +208,48 @@
 		)
 	)
 	(sheet
+		(at 374.65 224.79)
+		(size 31.75 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "37ed9096-31d7-4b5d-89e0-6ac7c6e9126b")
+		(property "Sheetname" "HDMI Transmitter"
+			(at 374.65 224.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hdmi_transmitter.kicad_sch"
+			(at 374.65 249.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pc_mainboard"
+				(path "/69a74940-cd00-4a75-bd5b-2bda9e86219a"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 179.07 123.19)
 		(size 31.75 31.75)
 		(exclude_from_sim no)
