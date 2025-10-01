@@ -292,8 +292,8 @@
 		)
 	)
 	(sheet
-		(at 306.07 170.18)
-		(size 50.8 40.64)
+		(at 306.07 184.15)
+		(size 16.51 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -308,7 +308,7 @@
 		)
 		(uuid "5acaef94-cd0b-452b-9621-73208b013ff5")
 		(property "Sheetname" "flash"
-			(at 306.07 169.4684 0)
+			(at 306.07 183.4384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -317,12 +317,42 @@
 			)
 		)
 		(property "Sheetfile" "flash.kicad_sch"
-			(at 306.07 211.4046 0)
+			(at 306.07 197.4346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "FLASH[0..3]" bidirectional
+			(at 306.07 187.96 180)
+			(uuid "35871e99-2027-4ee3-b91f-4c1d5d42f505")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FLASH_SCLK" input
+			(at 306.07 190.5 180)
+			(uuid "6864d960-5f07-4293-8547-ee05f643d63c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{FLASH_CS}" input
+			(at 306.07 193.04 180)
+			(uuid "06baf9f7-8b5a-49a0-9c70-2452d432cb10")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
